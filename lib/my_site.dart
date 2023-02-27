@@ -1,11 +1,7 @@
+
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:portafolios/core/configs/connection/bloc/connected_bloc.dart';
-import 'package:portafolios/core/configs/connection/network_check.dart';
-import 'package:portafolios/core/providers/drawer_provider.dart';
-import 'package:portafolios/core/providers/scroll_provider.dart';
-import 'package:portafolios/core/theme/app_theme.dart';
-import 'package:portafolios/core/theme/cubit/theme_cubit.dart';
+import 'package:portafolios/src/src.dart';
 import 'package:provider/provider.dart';
 import 'package:sizer/sizer.dart';
 
