@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:portafolios/src/presentation/changes/links.dart';
 import 'package:portafolios/src/src.dart';
 
 class Footer extends StatelessWidget {
@@ -17,11 +16,11 @@ class Footer extends StatelessWidget {
         child: Row(
           mainAxisSize: MainAxisSize.min,
           children: [
-            const Text("Developed by "),
+            const Text("Desarrollado por"),
             InkWell(
               onTap: () => openURL(gitHub),
               child: const Text(
-                " Sudesh Bandara 💙",
+                " Sailors Corp 💙",
                 style: TextStyle(fontWeight: FontWeight.bold),
               ),
             ),

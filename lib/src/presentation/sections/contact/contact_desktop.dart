@@ -1,8 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:portafolios/src/data/utils/contact_utils.dart';
-import 'package:portafolios/src/presentation/widgets/custom_text_heading.dart';
-import 'package:portafolios/src/presentation/changes/links.dart';
-import 'package:portafolios/src/presentation/changes/strings.dart';
 import 'package:portafolios/src/src.dart';
 import 'package:sizer/sizer.dart';
 
@@ -19,11 +15,11 @@ class ContactDesktop extends StatelessWidget {
       padding: EdgeInsets.symmetric(horizontal: size.width / 8),
       child: Column(
         children: [
-          const CustomSectionHeading(text: "\nGet in Touch"),
+          const CustomSectionHeading(text: "\nPoner en contacto"),
           Space.y(1.w)!,
           const CustomSectionSubHeading(
             text:
-                "If you want to avail my services you can contact me at the links below.",
+                "Si usted desea realizar obtener alguno de nuestros servicios , puede contactarnos mediante los siguientes links:.",
           ),
           Space.y(2.w)!,
           Container(
@@ -75,7 +71,7 @@ class ContactDesktop extends StatelessWidget {
                             //     width: 2.0, color: theme.primaryColor),
                             borderRadius: BorderRadius.circular(10)),
                         child: const Text(
-                          'Get Started',
+                          'Comenzar',
                           style: TextStyle(
                             fontSize: 18,
                             fontWeight: FontWeight.w500,

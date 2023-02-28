@@ -17,33 +17,33 @@ List<ProjectUtils> projectUtils = [
   ProjectUtils(
     banners: 'assets/imgs/02.png',
     icons: 'assets/imgs/flutter.png',
-    titles: 'Awesome Social Media App',
+    titles: 'Social Media App',
     description:
-        'This is a just Fully functional Social media App by using flutter, source code is also available, check below.',
-    links: 'https://github.com/sudeshnb/poetically-.git',
+        'Esta es una aplicación de redes sociales totalmente funcional que usa flutter, el código fuente también está disponible, consulte a continuación.',
+    links: 'https://github.com/romaloxesx/',
   ),
   ProjectUtils(
     banners: 'assets/imgs/1.png',
     icons: 'assets/imgs/flutter.png',
     titles: 'Awesome CRM UI',
     description:
-        'This is a just CRM UI Design using Figma, file is also available, check below.',
-    links: 'https://github.com/sudeshnb/',
+        'Este es solo un diseño de interfaz de usuario de CRM usando Figma, el archivo también está disponible, consulte a continuación.',
+    links: 'https://github.com/romaloxesx/',
   ),
   ProjectUtils(
     banners: 'assets/imgs/03.png',
     icons: 'assets/imgs/flutter.png',
-    titles: 'Exercise App',
+    titles: 'Aplicación para ejercitarnos',
     description:
-        'This is a just Fully function Exercise App by using flutter, source code is also available, check below.',
-    links: 'https://github.com/sudeshnb/elderly_exercise_app.git',
+        'Esta es una aplicación de ejercicio completamente funcional usando flutter, el código fuente también está disponible, consulte a continuación.',
+    links: 'https://github.com/romaloxesx/',
   ),
   ProjectUtils(
     banners: 'assets/imgs/04.png',
     icons: 'assets/imgs/flutter.png',
-    titles: 'Awesome Plant App UI',
+    titles: 'Plant App UI',
     description:
-        'This is a just Plant App UI by using flutter, source code is also available, check below.',
-    links: 'https://github.com/sudeshnb/flutter_plant_app.git',
+        'Esta es solo una interfaz de usuario de la aplicación Plant usando flutter, el código fuente también está disponible, consulte a continuación.',
+    links: 'https://github.com/romaloxesx/',
   ),
 ];

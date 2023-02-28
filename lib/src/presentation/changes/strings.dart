@@ -1,28 +1,28 @@
-String hellotag = '''Hi there, Welcome to My Space  ''';
+String hellotag = '''Hola , Bienvendos a nuestro espacio''';
 
-String yourname = "I'm Romario Arcia,";
+String yourname = "Somos Sailors Corp";
 // String hometitle2 = "A Mobile Application\nDeveloper";
 
-String animationtxt1 = " Mobile Application Developer";
-String animationtxt2 = " UI/UX Designer";
-String animationtxt3 = " Web Developer";
+String animationtxt1 = "Desarrolladores de aplicaciones móviles";
+String animationtxt2 = " Diseñadores de UI/UX";
+String animationtxt3 = "Desarrolladores Web";
 
 //
-String contactHeadding = "Let’s try my service now!";
+String contactHeadding = "¡Probemos nuestro servicio ahora!";
+
 String contactSubHeadding =
-    "Let’s work together and make everything super cute and super useful.";
-//
+    "Trabajemos juntos y hagamos que todo sea súper lindo y súper útil."; //
+
 String miniDescription =
-    "Freelancer providing services for programming and design content needs. Join me down below and let's get started!";
+    "Empresa independiente que brinda servicios para las necesidades de contenido de programación y diseño. ¡Únase a nuestros a continuación y comencemos!";
 
 String servicesSubHeading =
-    "Since the beginning of my journey as a freelance designer and developer, I've worked in startups and collaborated with talented people to create digital products for both business and consumer use. I offer a wide range of services, including brand design, programming and teaching.";
-//
+    " Desde el comienzo de nuestro viaje como diseñadores y desarrolladores independiente, hemos trabajado en nuevas empresas y colaborado con personas talentosas para crear productos digitales para uso comercial y de consumo. Ofrecemos una amplia gama de servicios, que incluyen diseño de marca, programación y enseñanza.";
 
 String protfolioSubHeading =
-    "Since the beginning of my journey as a designer and developer, I have created digital products for business and consumer use. This is a little bit.";
-const String aboutMeHeadline =
-    'I\'m Sudesh Bandara, a Mobile App developer, Web developer and UI designer.';
+    "Desde el comienzo de nuestro viaje como diseñadores y desarrolladores, he creado productos digitales para uso comercial y de consumo. Esto es un poco";
 
+const String aboutMeHeadline =
+    "Somos Sailors Corp , desarrolladores de aplicaciones móviles, desarrolladores web y diseñadores de UI.";
 const String aboutMeDetail =
-    'I\'m a Fresh Graduate as Engineer from University of Informatics Sciences, UK. I have been developing mobile apps for over 4 years now. I have worked in teams for various startups and helped them in launching their prototypes and got valuable learning experience. Been a CEO/Co-Founder of Onyxsio, Sri Lanka. Currently working as an Associate Software Engineer at Onyxsio.';
+    "Somos recién graduados como ingeniero de la Universidad de las Ciencias Informáticas, Cuba. Llevo más de 4 años desarrollando aplicaciones móviles. Hemos trabajado en equipos para varias empresas emergentes y las ayudamos a lanzar sus prototipos y obtuvimos  valiosa experiencia de aprendizaje.";

@@ -1,15 +1,8 @@
 import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:flutter/material.dart';
-import 'package:portafolios/src/presentation/changes/img.dart';
-import 'package:portafolios/src/presentation/changes/links.dart';
-import 'package:portafolios/src/presentation/changes/strings.dart';
 import 'package:portafolios/src/src.dart';
-
 import 'package:sizer/sizer.dart';
-import 'package:universal_html/html.dart' as html;
 
-import '../../widgets/color_chage_btn.dart';
-import 'widgets/animation_text.dart';
 
 class HomeTab extends StatelessWidget {
   const HomeTab({Key? key}) : super(key: key);
@@ -67,13 +60,7 @@ class HomeTab extends StatelessWidget {
                   child: Row(
                     crossAxisAlignment: CrossAxisAlignment.center,
                     children: [
-                      Text(
-                        "A ",
-                        style: TextStyle(
-                          fontSize: isFontSize(context, 24),
-                          fontWeight: FontWeight.w400,
-                        ),
-                      ),
+
                       AnimatedTextKit(
                         animatedTexts: tabList,
                         isRepeatingAnimation: true,
@@ -93,12 +80,7 @@ class HomeTab extends StatelessWidget {
                   ),
                 ),
                 Space.y(2.w)!,
-                ColorChageButton(
-                  text: 'download cv',
-                  onTap: () {
-                    html.window.open(resume, "pdf");
-                  },
-                ),
+
               ],
             ),
           ),

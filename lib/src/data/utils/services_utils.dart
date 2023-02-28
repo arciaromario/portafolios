@@ -13,26 +13,26 @@ class ServicesUtils {
 
 List<ServicesUtils> servicesUtils = [
   ServicesUtils(
-    name: 'Android App Development',
+    name: 'Desarrollo de Aplicaciones Android',
     icon: 'assets/icons/android.svg',
     description:
-        "Are you interested in the great Mobile app? Let's make it a reality.",
-    tool: ['Flutter', 'Android (Kotlin or Java)'],
+        "¿Estás interesado en la gran aplicación móvil? Hagámosla realidad",
+    tool: ['Flutter', 'Android(Kotlin or Java)'],
   ),
   ServicesUtils(
-    name: 'iOS App Development',
+    name: 'Desarrollo de Aplicaciones iOS',
     icon: 'assets/icons/apple.svg',
     description:
-        "Are you interested in the great Mobile app? Let's make it a reality.",
+        "¿Estás interesado en la gran aplicación móvil? Hagámosla realidad",
     tool: [
       'Flutter',
     ],
   ),
   ServicesUtils(
-    name: 'UI/UX Designing',
+    name: 'Diseño de UI/UX',
     icon: 'assets/icons/graphic.svg',
     description:
-        "I'm creating elegant designs suited to your needs following core design theory. ",
+        "Estamos creando diseños elegantes que se adaptan a sus necesidades siguiendo la teoría del diseño central",
     tool: [
       'Adobe XD',
       'Figma',
@@ -40,15 +40,14 @@ List<ServicesUtils> servicesUtils = [
     ],
   ),
   ServicesUtils(
-    name: 'Web Development',
+    name: 'Web Desarrollo',
     icon: 'assets/icons/website.svg',
     description:
-        "Do you have an idea for your next great website? Let's make it a reality.",
+        "¿Tienes una idea para tu próximo gran sitio web? Hagámoslo realidad",
     tool: [
       'Flutter',
-      'Django-Framework',
+      'Python(Django)',
       'Html,css,js',
-      'Android (Kotlin or Java)'
     ],
   ),
 ];

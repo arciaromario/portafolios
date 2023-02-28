@@ -28,7 +28,7 @@ class _MobileDrawer extends StatelessWidget {
                       // color: theme.textColor,
                     ),
                     title:
-                        Text(state.isDarkThemeOn ? "Light Mode" : "Dark Mode"),
+                        Text(state.isDarkThemeOn ? "Modo Claro" : "Modo Oscuro"),
                     trailing: Switch(
                       value: state.isDarkThemeOn,
                       activeColor: theme.primaryColor,
@@ -64,7 +64,7 @@ class _MobileDrawer extends StatelessWidget {
                       ),
                   Space.y(5.w)!,
                   ColorChageButton(
-                    text: 'RESUME',
+                    text: 'Resumen',
                     onTap: () {
                       openURL(resume);
                     },

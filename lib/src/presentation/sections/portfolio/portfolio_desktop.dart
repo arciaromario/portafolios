@@ -1,12 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:portafolios/src/data/utils/project_utils.dart';
-import 'package:portafolios/src/presentation/widgets/custom_text_heading.dart';
-import 'package:portafolios/src/presentation/changes/links.dart';
-import 'package:portafolios/src/presentation/changes/strings.dart';
 import 'package:portafolios/src/src.dart';
 import 'package:sizer/sizer.dart';
-
-import 'widgets/project_card.dart';
 
 class PortfolioDesktop extends StatefulWidget {
   const PortfolioDesktop({Key? key}) : super(key: key);
@@ -23,7 +17,7 @@ class _PortfolioDesktopState extends State<PortfolioDesktop> {
       padding: EdgeInsets.symmetric(horizontal: size.width / 8),
       child: Column(
         children: [
-          const CustomSectionHeading(text: "\nProjects"),
+          const CustomSectionHeading(text: "\nProyectos"),
           Space.y(1.w)!,
           CustomSectionSubHeading(text: protfolioSubHeading),
           Space.y(2.w)!,
@@ -45,7 +39,7 @@ class _PortfolioDesktopState extends State<PortfolioDesktop> {
             child: const Padding(
               padding: EdgeInsets.all(8.0),
               child: Text(
-                'See More',
+                'Ver más',
                 style: TextStyle(
                   fontSize: 20,
                   fontWeight: FontWeight.bold,

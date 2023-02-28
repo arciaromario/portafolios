@@ -1,8 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:portafolios/src/data/utils/contact_utils.dart';
-import 'package:portafolios/src/presentation/widgets/custom_text_heading.dart';
-import 'package:portafolios/src/presentation/changes/links.dart';
-import 'package:portafolios/src/presentation/changes/strings.dart';
 import 'package:portafolios/src/src.dart';
 import 'package:sizer/sizer.dart';
 
@@ -15,11 +11,14 @@ class ContactMobileTab extends StatelessWidget {
     return Column(
       children: [
         Space.y(10.w)!,
-        CustomSectionHeading(text: contactHeadding),
+        const CustomSectionHeading(text: "\nPoner en contacto"),
         Space.y(3.w)!,
         Padding(
           padding: EdgeInsets.symmetric(horizontal: 10.w),
-          child: CustomSectionSubHeading(text: contactSubHeadding),
+          child: const CustomSectionSubHeading(
+            text:
+                "Si usted desea realizar obtener alguno de nuestros servicios , puede contactarnos mediante los siguientes links:",
+          ),
         ),
         Space.y(5.w)!,
         InkWell(
@@ -29,7 +28,7 @@ class ContactMobileTab extends StatelessWidget {
             decoration: BoxDecoration(
                 gradient: buttonGradi, borderRadius: BorderRadius.circular(10)),
             child: const Text(
-              'Get Started',
+              'Comenzar',
               style: TextStyle(
                 fontSize: 18,
                 fontWeight: FontWeight.w500,

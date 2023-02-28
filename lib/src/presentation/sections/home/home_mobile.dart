@@ -1,14 +1,7 @@
 import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:flutter/material.dart';
-import 'package:portafolios/src/presentation/widgets/color_chage_btn.dart';
-import 'package:portafolios/src/presentation/changes/img.dart';
-import 'package:portafolios/src/presentation/changes/links.dart';
-import 'package:portafolios/src/presentation/changes/strings.dart';
 import 'package:portafolios/src/src.dart';
 import 'package:sizer/sizer.dart';
-import 'package:universal_html/html.dart' as html;
-
-import 'widgets/animation_text.dart';
 
 class HomeMobile extends StatelessWidget {
   const HomeMobile({Key? key}) : super(key: key);
@@ -43,13 +36,7 @@ class HomeMobile extends StatelessWidget {
           Row(
             crossAxisAlignment: CrossAxisAlignment.end,
             children: [
-              Text(
-                "A ",
-                style: TextStyle(
-                  fontSize: isFontSize(context, 18),
-                  fontWeight: FontWeight.w400,
-                ),
-              ),
+
               AnimatedTextKit(
                 animatedTexts: mobileList,
                 repeatForever: true,
@@ -61,14 +48,8 @@ class HomeMobile extends StatelessWidget {
           Space.y(2.w)!,
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            children: [
-              ColorChageButton(
-                text: 'download cv',
-                onTap: () {
-                  html.window.open(resume, "pdf");
-                },
-              ),
-              const EntranceFader(
+            children: const [
+              EntranceFader(
                 offset: Offset(0, 0),
                 delay: Duration(seconds: 1),
                 duration: Duration(milliseconds: 800),

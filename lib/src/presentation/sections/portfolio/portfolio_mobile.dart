@@ -1,13 +1,8 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
-import 'package:portafolios/src/data/utils/project_utils.dart';
-import 'package:portafolios/src/presentation/widgets/custom_text_heading.dart';
-import 'package:portafolios/src/presentation/changes/links.dart';
-import 'package:portafolios/src/presentation/changes/strings.dart';
 import 'package:portafolios/src/src.dart';
 import 'package:sizer/sizer.dart';
 
-import 'widgets/project_card.dart';
 
 class PortfolioMobileTab extends StatelessWidget {
   const PortfolioMobileTab({Key? key}) : super(key: key);
@@ -17,7 +12,7 @@ class PortfolioMobileTab extends StatelessWidget {
     double height = MediaQuery.of(context).size.height;
     return Column(
       children: [
-        const CustomSectionHeading(text: "\nProjects"),
+        const CustomSectionHeading(text: "\nProyectos"),
         Space.y(3.w)!,
         Padding(
           padding: EdgeInsets.symmetric(horizontal: 10.w),
@@ -45,7 +40,7 @@ class PortfolioMobileTab extends StatelessWidget {
           child: const Padding(
             padding: EdgeInsets.all(8.0),
             child: Text(
-              'See More',
+              'Ver más',
               style: TextStyle(
                 fontSize: 16,
                 fontWeight: FontWeight.w600,

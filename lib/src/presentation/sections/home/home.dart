@@ -1,8 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:portafolios/src/src.dart';
-import 'home_desktop.dart';
-import 'home_mobile.dart';
-import 'home_tab.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({Key? key}) : super(key: key);
