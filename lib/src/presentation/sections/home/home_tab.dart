@@ -14,16 +14,16 @@ class HomeTab extends StatelessWidget {
       height: 60.h,
       child: Stack(
         children: [
-          Positioned(
-            right: 10.w,
-            bottom: 20.w,
-            child: const EntranceFader(
-              offset: Offset(0, 0),
-              delay: Duration(seconds: 1),
-              duration: Duration(milliseconds: 800),
-              child: ZoomAnimations(),
-            ),
-          ),
+          // Positioned(
+          //   right: 10.w,
+          //   bottom: 20.w,
+          //   child: const EntranceFader(
+          //     offset: Offset(0, 0),
+          //     delay: Duration(seconds: 1),
+          //     duration: Duration(milliseconds: 800),
+          //     child: ZoomAnimations(),
+          //   ),
+          // ),
           Padding(
             padding: EdgeInsets.only(left: 10.w, top: 10.h),
             child: Column(

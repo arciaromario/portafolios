@@ -40,7 +40,7 @@ List<ServicesUtils> servicesUtils = [
     ],
   ),
   ServicesUtils(
-    name: 'Web Desarrollo',
+    name: 'Desarrollo Web',
     icon: 'assets/icons/website.svg',
     description:
         "¿Tienes una idea para tu próximo gran sitio web? Hagámoslo realidad",

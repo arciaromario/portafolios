@@ -17,10 +17,10 @@ String miniDescription =
     "Empresa independiente que brinda servicios para las necesidades de contenido de programación y diseño. ¡Únase a nuestros a continuación y comencemos!";
 
 String servicesSubHeading =
-    " Desde el comienzo de nuestro viaje como diseñadores y desarrolladores independiente, hemos trabajado en nuevas empresas y colaborado con personas talentosas para crear productos digitales para uso comercial y de consumo. Ofrecemos una amplia gama de servicios, que incluyen diseño de marca, programación y enseñanza.";
+    " Desde el comienzo de nuestro viaje como diseñadores y desarrolladores independiente, hemos trabajado en empresas y colaborado con personas talentosas para crear productos digitales para uso comercial y de consumo. Ofrecemos una amplia gama de servicios, que incluyen diseño de marca, programación y enseñanza.";
 
 String protfolioSubHeading =
-    "Desde el comienzo de nuestro viaje como diseñadores y desarrolladores, he creado productos digitales para uso comercial y de consumo. Esto es un poco";
+    "Desde el comienzo de nuestro viaje como diseñadores y desarrolladores, hemos creado productos digitales para uso comercial y de consumo. Esto es un poco";
 
 const String aboutMeHeadline =
     "Somos Sailors Corp , desarrolladores de aplicaciones móviles, desarrolladores web y diseñadores de UI.";

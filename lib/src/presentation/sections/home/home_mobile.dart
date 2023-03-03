@@ -46,17 +46,17 @@ class HomeMobile extends StatelessWidget {
           ),
 
           Space.y(2.w)!,
-          Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            children: const [
-              EntranceFader(
-                offset: Offset(0, 0),
-                delay: Duration(seconds: 1),
-                duration: Duration(milliseconds: 800),
-                child: ZoomAnimations(),
-              )
-            ],
-          ),
+          // Row(
+          //   mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          //   children: const [
+          //     // EntranceFader(
+          //     //   offset: Offset(0, 0),
+          //     //   delay: Duration(seconds: 1),
+          //     //   duration: Duration(milliseconds: 800),
+          //     //   child: ZoomAnimations(),
+          //     // )
+          //   ],
+          // ),
         ],
       ),
     );
